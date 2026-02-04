@@ -1,5 +1,5 @@
-          #Random Password Generator
-
+          #Random Password Generator 
+ 
 import random
 import string
 
@@ -10,5 +10,5 @@ charValues = string.ascii_letters + string.digits + string.punctuation
 password = ""
 for i in range (pass_len):
     password += random.choice(charValues)
-
+      #user input
 print("your random password is :", password)
